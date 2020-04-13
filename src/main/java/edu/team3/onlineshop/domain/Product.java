@@ -22,8 +22,11 @@ public class Product {
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
+<<<<<<< HEAD
 	
 	
+=======
+>>>>>>> parent of c37c067... create new field
 
 	@JsonView(View.Summary.class)
 	@NotBlank(message = "Title field is required")
